@@ -13,7 +13,6 @@ namespace ConsoleApplication6
             Console.Write("Type a number to be doubled: ");   
      
             int usrNum = Convert.ToInt32(Console.ReadLine());     
-            Numm(usrNum);                                          
             Console.WriteLine("Answer is: " + Numm(usrNum));     
   
             Console.ReadKey();                                     
